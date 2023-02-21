@@ -5,7 +5,7 @@ This project is an Express application that uses [Passport](http://www.passportj
 
 ## Installation
 
-To install passport-gh, clone the repository and run `npm install` in the root directory. 
+To install GitHub-OAuth-Application, clone the repository and run `npm install` in the root directory. 
 
 ## Run 
 
