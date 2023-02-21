@@ -8,7 +8,7 @@ const express = require('express');
 const partials = require('express-partials');
 const session = require('express-session');
 const { setEngine } = require("crypto");
-const passport = require('passport')
+const passport = require('passport');
 
 const app = express();
 
