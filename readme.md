@@ -15,7 +15,7 @@ The following variables are declared in this project:
  - `GITHUB_CLIENT_ID`: The client ID of your GitHub app (loaded from `processs/.env`).  
  - `GITHUB_CLIENT_SECRET`: The client secret of your GitHub app (loaded from `processs/.env`). 
 
-_Note: Instructions to generate GitHub client secret can be found [here](../starting_code/Set-Client-Secret.md)._ 
+_Note: Instructions to generate GitHub client secret can be found [here](https://github.com/Othamae/GitHub-OAuth-Application/blob/master/Set-Client-Secret.md)._ 
 
 
 ## Run 
