@@ -14,7 +14,8 @@ The following variables are declared in this project:
  - `PORT`: The port number on which the server will listen (defaults to 3000).  
  - `GITHUB_CLIENT_ID`: The client ID of your GitHub app (loaded from `processs/.env`).  
  - `GITHUB_CLIENT_SECRET`: The client secret of your GitHub app (loaded from `processs/.env`). 
-  
+
+_Note: Instructions to generate GitHub client secret can be found [here]('./Set-Client-Secret.md')._ 
 
 ## Run 
 
