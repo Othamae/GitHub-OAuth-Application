@@ -7,8 +7,19 @@ This project is an Express application that uses [Passport](http://www.passportj
 
 To install GitHub-OAuth-Application, clone the repository and run `npm install` in the root directory. 
 
+### Variable Declarations
+
+The following variables are declared in this project: 
+
+ - `PORT`: The port number on which the server will listen (defaults to 3000).  
+ - `GITHUB_CLIENT_ID`: The client ID of your GitHub app (loaded from `processs/.env`).  
+ - `GITHUB_CLIENT_SECRET`: The client secret of your GitHub app (loaded from `processs/.env`). 
+  
+
 ## Run 
 
+Before running the project, create `.env` file and save your GitHub client ID and GitHub client Secret. 
+  
 To start the server, run `npm start`. To start the development server, run `npm dev`. 
 
 ### Dependencies 
@@ -34,14 +45,7 @@ The following packages are imported and used in this project:
 - [Path](https://nodejs.org/api/path.html) - Used to check if a path is absolute or not  
 - [Passport GitHub2 Strategy](https://www.npmjs.com/package/passport-github2) - Used for authenticating with GitHub OAuth  
 
- ### Variable Declarations
-
- The following variables are declared in this project: 
-
- - `PORT`: The port number on which the server will listen (defaults to 3000).  
- - `GITHUB_CLIENT_ID`: The client ID of your GitHub app (loaded from `processs/.env`).  
- - `GITHUB_CLIENT_SECRET`: The client secret of your GitHub app (loaded from `processs/.env`).  
-
+ 
  ## Routes
 This project contains the following routes:
 
